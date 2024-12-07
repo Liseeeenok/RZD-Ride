@@ -235,7 +235,7 @@ export default {
             this.isAvailEnd = false;
             this.toHint = '';
         },
-        async getStation() { //Функция для получения списка станций
+        async getStation() { //Функция для получения списка маршрутов
             this.arrStartStation = [];
             this.isAvailEnd = false;
             this.arrEndStation = [];
